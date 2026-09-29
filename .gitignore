@@ -1,0 +1,57 @@
+# Python
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Node & Next.js
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+.npm/
+
+# Rust / Tauri
+target/
+src-tauri/target/
+frontend/src-tauri/target/
+*.rlib
+*.rmeta
+
+# Heavy binaries, DLLs, and archives
+tools/
+*.exe
+*.dll
+*.so
+*.dylib
+*.zip
+*.7z
+*.tar.gz
+*.bin
+*.gguf
+*.pdb
+
+# Agent local artifacts & checkpoints
+.agent_checkpoints/
+.agent_memory.json
+outputs/
+
+# Environment files
+.env
+.env*.local
+*.local
+
+# OS
+Thumbs.db
+.DS_Store
+*.swp
+*.swo

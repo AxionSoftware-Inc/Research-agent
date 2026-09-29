@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+:root {
+  --bg-base: #0c0e12;
+  --bg-surface: #121620;
+  --bg-card: #171c28;
+  --bg-card-hover: #1e2434;
+  --border-subtle: #222838;
+  --border-strong: #2f374e;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: -0.011em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252c3e;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #374158;
+}
+
+/* Text Selection */
+::selection {
+  background-color: #1e3a8a;
+  color: #eff6ff;
+}
+
+/* Common Design System Classes */
+.ds-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+}
+
+.ds-input {
+  background-color: #0e1118;
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  color: var(--text-primary);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.ds-input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+.ds-btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.15s ease;
+}
+
+.ds-btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.ds-btn-secondary {
+  background-color: #181d28;
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.15s ease;
+}
+
+.ds-btn-secondary:hover {
+  background-color: #222939;
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+}
+
+.ds-btn-ghost {
+  background-color: transparent;
+  color: var(--text-secondary);
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+
+.ds-btn-ghost:hover {
+  background-color: #181d28;
+  color: var(--text-primary);
+}
+

@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,booktabs}
+\usepackage[margin=1in]{geometry}
+\begin{document}
+\section*{Quantum transport test}
+For a one-dimensional wave packet, the normalized state is
+\[
+\psi(x,t)=\frac{1}{(2\pi\sigma_t^2)^{1/4}}
+\exp\!\left[-\frac{(x-x_0-vt)^2}{4\sigma_t^2}
+        +\frac{i}{\hbar}\left(p_0x-\frac{p_0^2t}{2m}\right)\right],
+\qquad
+\sigma_t=\sigma_0\sqrt{1+\left(\frac{\hbar t}{2m\sigma_0^2}\right)^2}.
+\]
+The measured error for three discretizations is shown below.
+\begin{table}[h]
+\centering
+\begin{tabular}{lccc}
+\toprule
+Grid size $N$ & 128 & 256 & 512\\
+\midrule
+Relative error & $1.7\times10^{-3}$ & $4.2\times10^{-4}$ & $1.0\times10^{-4}$\\
+Runtime (s) & 0.08 & 0.31 & 1.24\\
+\bottomrule
+\end{tabular}
+\caption{Convergence of the numerical solution.}
+\end{table}
+The expected convergence rate is $O(N^{-2})$.
+\end{document}

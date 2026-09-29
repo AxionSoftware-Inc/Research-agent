@@ -1,0 +1,68 @@
+{
+  "goal": "oxirgi eng qisqa kvant fizikasidan bitta maqolani olib tarjima qil",
+  "current_step_index": 1,
+  "total_steps": 6,
+  "created_at": 1790677451.3979702,
+  "steps": [
+    {
+      "step_id": 1,
+      "title": "1-qadam: Maqolani tanlash va qidiruv doirasini belgilash",
+      "description": "Kvant fizikasi bo'yicha eng so'nggi va qisqa maqolani (arXiv, Nature Physics yoki Physical Review Letters bazalaridan) topish va mavzu doirasini aniqlash.",
+      "target_file": "01_research_scope.md",
+      "status": "in_progress",
+      "alignment_score": null,
+      "quality_score": null,
+      "completed_at": null
+    },
+    {
+      "step_id": 2,
+      "title": "2-qadam: Matnni ajratib olish va tahlil qilish",
+      "description": "Tanlangan maqolani PDF formatidan matn ko'rinishiga o'tkazish va asosiy ilmiy tushunchalarni ajratib olish.",
+      "target_file": "02_literature_survey.md",
+      "status": "pending",
+      "alignment_score": null,
+      "quality_score": null,
+      "completed_at": null
+    },
+    {
+      "step_id": 3,
+      "title": "3-qadam: Terminologiya lug'ati va glossariy tuzish",
+      "description": "Kvant mexanikasiga oid maxsus terminlarni (superpozitsiya, entanglement, dekoherensiya va h.k.) o'zbek tilidagi aniq ilmiy ekvivalentlarini shakllantirish.",
+      "target_file": "03_terminology_glossary.md",
+      "status": "pending",
+      "alignment_score": null,
+      "quality_score": null,
+      "completed_at": null
+    },
+    {
+      "step_id": 4,
+      "title": "4-qadam: Texnik tarjima jarayoni (Draft)",
+      "description": "Maqolaning matnini ilmiy uslubda, belgilangan terminologiyadan foydalangan holda o'zbek tiliga tarjima qilish.",
+      "target_file": "04_findings_discussion.md",
+      "status": "pending",
+      "alignment_score": null,
+      "quality_score": null,
+      "completed_at": null
+    },
+    {
+      "step_id": 5,
+      "title": "5-qadam: Ilmiy tekshiruv va tahrir",
+      "description": "Tarjima qilingan matnning fizik ma'no jihatidan to'g'riligini, formulalar va matematik ifodalarning aniqligini tekshirish.",
+      "target_file": "05_review_analysis.md",
+      "status": "pending",
+      "alignment_score": null,
+      "quality_score": null,
+      "completed_at": null
+    },
+    {
+      "step_id": 6,
+      "title": "6-qadam: Yakuniy tahrir va PDF formatlash",
+      "description": "Matnni professional ko'rinishga keltirish, formatlash va yakuniy hujjatni PDF formatida tayyorlash.",
+      "target_file": "outputs/translated_article.pdf",
+      "status": "pending",
+      "alignment_score": null,
+      "quality_score": null,
+      "completed_at": null
+    }
+  ]
+}
