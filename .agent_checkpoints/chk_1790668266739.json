@@ -1,0 +1,8 @@
+{
+  "checkpoint_id": "chk_1790668266739",
+  "description": "Action: write_file(['path', 'content'])",
+  "timestamp": 1790668266.7394936,
+  "file_states": {
+    "quantum_tests.json": "[{\"id\":1,\"question\":\"Kvant mexanikasida partikularning holati qanday ifodalanadi?\",\"answer\":\"Partikularning holati kvant holatlarini ifodalaydigan yagona holat funksiyasi (\u03c8) bilan ifodalanadi, bu funksiya amplitudani va fazani o'z ichiga oladi.\"},{\"id\":2,\"question\":\"Kvant entanglementning asosiy xususiyatini tushuntiring\",\"answer\":\"Kvant entanglement - bir nechta partikularning holatlarining bir-biridan mustahkam bog'liq bo'lishi, shunda ularning holatlari bir-biridan mustaqil bo'lmaydi, shu sababli ularning holatlari birga bog'liq bo'lishi kerak.\"}]"
+  }
+}

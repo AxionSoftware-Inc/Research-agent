@@ -28,7 +28,7 @@ frontend/src-tauri/target/
 *.rmeta
 
 # Heavy binaries, DLLs, and archives
-tools/
+/tools/
 *.exe
 *.dll
 *.so
@@ -39,11 +39,6 @@ tools/
 *.bin
 *.gguf
 *.pdb
-
-# Agent local artifacts & checkpoints
-.agent_checkpoints/
-.agent_memory.json
-outputs/
 
 # Environment files
 .env

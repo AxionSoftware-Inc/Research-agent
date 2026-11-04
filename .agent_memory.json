@@ -1,0 +1,28 @@
+{
+  "project_name": "AI-ResearchAssistant",
+  "tech_stack": "Python, Next.js, FastAPI, Ollama, Tectonic",
+  "key_facts": [
+    "Tools used: list_directory, update_plan, read_file",
+    "Tools used: run_shell_command",
+    "Tools used: write_file",
+    "Tools used: search_arxiv",
+    "Tools used: manage_bibtex",
+    "Tools used: download_and_extract_paper, search_arxiv",
+    "Tools used: search_arxiv, search_crossref"
+  ],
+  "known_files": {},
+  "active_milestones": [],
+  "completed_tasks": [
+    "albatta -> Success",
+    "Search arXiv for 1 recent paper about 'quantum computing algorithms', summarize  -> Success",
+    "salom -> Success",
+    "references.bib faylidagi barcha iqtiboslar ro'yxatini ko'rsat -> Success",
+    "salom -> Success",
+    "test ping -> Success",
+    "arXiv dan transformer haqida 1 ta maqola top -> Success",
+    "bitta qisqa juda qisqa lazer fizikasiga oid maqolani yuklab olib tarjima qil -> Success",
+    "bitta lazer fizikasi bo'yicha maqolani yuklab olib tarjima qilib ber -> Success",
+    "search_crossref va search_arxiv vositalari orqali 'Self-Healing AI Agents' bo'yi -> Success"
+  ],
+  "last_updated": 1790678775.1992261
+}
